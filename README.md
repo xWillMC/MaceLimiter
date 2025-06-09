@@ -22,9 +22,9 @@ A professional, production-ready Minecraft plugin to **limit the number of maces
 📦 Developer API
 Import MaceLimiterAPI in your plugin and use:
 
-val totalMaces = MaceLimiterAPI.countTotalMaces()
-val isMace = MaceLimiterAPI.isMace(itemStack)
-val isFull = MaceLimiterAPI.wouldExceedLimit("world")
+- val totalMaces = MaceLimiterAPI.countTotalMaces()
+- val isMace = MaceLimiterAPI.isMace(itemStack)
+- val isFull = MaceLimiterAPI.wouldExceedLimit("world")
 ---
 ## ⚙️ Configuration
 

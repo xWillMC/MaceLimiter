@@ -1,0 +1,8 @@
+prefix: "&8[&6MaceLimiter&8] "
+
+limit-exceeded: "%prefix% &cYou cannot hold any more maces! The limit has been reached."
+bypass-active: "%prefix% &7Bypass active. Mace limit not enforced."
+log-entry: "[MaceLimiter] %player% tried to exceed the mace limit in world '%world%'"
+reload-complete: "%prefix% &aConfiguration reloaded successfully."
+list-owners: "%prefix% &eCurrent mace holders: &f%list%"
+no-maces-found: "%prefix% &7No maces were found in any world."

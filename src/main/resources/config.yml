@@ -1,0 +1,19 @@
+global-limit: true # true = global cap; false = per-world
+default-limit: 1
+
+limits-per-world:
+  world: 1
+  world_nether: 0
+  world_the_end: 0
+
+logging:
+  enabled: true
+  to-console: true
+  to-file: true
+
+silent-mode: false # If true, suppress all player messages
+
+actions:
+  on-limit-exceeded: "DENY_PICKUP" # Other options: DENY_DROP, KICK, REPLACE, REMOVE
+
+bypass-permission: "macelimiter.bypass"
